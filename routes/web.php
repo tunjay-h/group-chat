@@ -18,5 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/msngr', 'MsngrController@index')->name('msngr');
+Route::get('/search', 'MsngrController@searchusersbyname');
+Route::get('/group-messages', 'MsngrController@getmessagesforgroup');
+
 Route::resource('groups', 'GroupController');
 Route::resource('conversations', 'ConversationController');

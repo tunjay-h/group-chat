@@ -10,6 +10,8 @@ class Conversation extends Model
 {
     protected $fillable = ['message', 'user_id', 'group_id'];
 
+    protected $table = 'conversations';
+
     public function user()
     {
         return $this->belongsTo(User::class);
