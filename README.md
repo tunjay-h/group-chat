@@ -8,3 +8,4 @@ This repository demonstrates the process to create a realtime *Group Chat Applic
 4. Install composer dependencies
 5. Run npm install
 6. Do not forget to run the queue listener to broadcast the events
+7. NOTE: There can be some issues, used some templates and code from [here](https://github.com/viraj-khatavkar/group-chat-app-laravel-pusher)
